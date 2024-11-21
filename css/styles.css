@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Bebas Neue", sans-serif;
     border-radius: 4px;
+    background-color: #000;
 }
 #simulator{
     width: 100%;
@@ -12,13 +13,13 @@
     padding: 50px 60px;
     border: 1px solid #dde0e8;
     margin: 100px auto;
-    box-shadow: 0 0 5em #3EFFE5;
+    box-shadow: 28px 12px 5em #761ee9;
     background: #000;
 }
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #3EFFE5;
+    color: #4a00d3;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #7a93ab;
@@ -33,7 +34,7 @@ h1{
     padding: 40px 20px;
 }
 h2{
-    color: #3EFFE5;
+    color: #4a00d3;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -78,7 +79,7 @@ h2{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #04d137;
     color: #fff;
     border: 1px solid #1c9882;
     transition: .4s;
@@ -86,18 +87,18 @@ h2{
 }
 .form button:hover{
     background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    border: 1px solid #05866f;
+    color: #01e226;
 }
 input, select{
     padding: 14px 30px;
     background: #f5f8fa;
     border: 0;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #8923fd;
     outline: none;
 }
 input::placeholder {
-    color: #000; /* Cambia este valor al color que desees */
+    color: #000;
 }
 .right .pre-simulation{
     width: 100%;
